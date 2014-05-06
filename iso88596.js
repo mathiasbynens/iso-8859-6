@@ -50,6 +50,7 @@
 		var length = input.length;
 		var index = -1;
 		var byteValue;
+		var pointer;
 		var result = '';
 		while (++index < length) {
 			byteValue = input.charCodeAt(index);
@@ -61,7 +62,7 @@
 			}
 			// “Let `code point` be the index code point for `byte − 0x80` in index
 			// `single-byte`.”
-			var pointer = byteValue - 0x80;
+			pointer = byteValue - 0x80;
 			if (hasOwnProperty.call(INDEX_BY_POINTER, pointer)) {
 				// “Return a code point whose value is `code point`.”
 				result += INDEX_BY_POINTER[pointer];
@@ -114,6 +115,22 @@
 	var iso88596 = {
 		'encode': encode,
 		'decode': decode,
+		'labels': [
+			'arabic',
+			'asmo-708',
+			'csiso88596e',
+			'csiso88596i',
+			'csisolatinarabic',
+			'ecma-114',
+			'iso-8859-6',
+			'iso-8859-6-e',
+			'iso-8859-6-i',
+			'iso-ir-127',
+			'iso8859-6',
+			'iso88596',
+			'iso_8859-6',
+			'iso_8859-6:1987'
+		],
 		'version': '0.1.0'
 	};
 
