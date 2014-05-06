@@ -1,6 +1,6 @@
 # iso-8859-6 [![Build status](https://travis-ci.org/mathiasbynens/iso-8859-6.svg?branch=master)](https://travis-ci.org/mathiasbynens/iso-8859-6) [![Dependency status](https://gemnasium.com/mathiasbynens/iso-8859-6.svg)](https://gemnasium.com/mathiasbynens/iso-8859-6)
 
-_iso-8859-6_ is robust JavaScript implementation of [the iso-8859-6 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#iso-8859-6).
+_iso-8859-6_ is a robust JavaScript implementation of [the iso-8859-6 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#iso-8859-6).
 
 This encoding is known under the following names: arabic, asmo-708, csiso88596e, csiso88596i, csisolatinarabic, ecma-114, iso-8859-6, iso-8859-6-e, iso-8859-6-i, iso-ir-127, iso8859-6, iso88596, iso_8859-6, iso_8859-6:1987, and iso_8859-6:1987.
 
