@@ -48,10 +48,10 @@ Using an AMD loader like [RequireJS](http://requirejs.org/):
 require(
   {
     'paths': {
-      'iso88596': 'path/to/iso88596'
+      'iso-8859-6': 'path/to/iso-8859-6'
     }
   },
-  ['iso88596'],
+  ['iso-8859-6'],
   function(iso88596) {
     console.log(iso88596);
   }
