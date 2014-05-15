@@ -7,8 +7,11 @@
 	"keywords": [
 		"codec",
 		"decoder",
+		"decoding",
 		"encoder",
+		"encoding",
 		"legacy",
+		"legacy-encoding",
 		"arabic",
 		"asmo-708",
 		"csiso88596e",
