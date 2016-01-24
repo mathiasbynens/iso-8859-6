@@ -1,6 +1,6 @@
 # iso-8859-6 [![Build status](https://travis-ci.org/mathiasbynens/iso-8859-6.svg?branch=master)](https://travis-ci.org/mathiasbynens/iso-8859-6) [![Code coverage status](https://coveralls.io/repos/mathiasbynens/iso-8859-6/badge.svg)](https://coveralls.io/r/mathiasbynens/iso-8859-6) [![Dependency status](https://gemnasium.com/mathiasbynens/iso-8859-6.svg)](https://gemnasium.com/mathiasbynens/iso-8859-6)
 
-_iso-8859-6_ is a robust JavaScript implementation of [the iso-8859-6 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#iso-8859-6).
+_iso-8859-6_ is a robust JavaScript implementation of [the iso-8859-6 character encoding as defined by the Encoding Standard](https://encoding.spec.whatwg.org/#iso-8859-6).
 
 This encoding is known under the following names: arabic, asmo-708, csiso88596e, csiso88596i, csisolatinarabic, ecma-114, iso-8859-6, iso-8859-6-e, iso-8859-6-i, iso-ir-127, iso8859-6, iso88596, iso_8859-6, and iso_8859-6:1987.
 
@@ -36,7 +36,7 @@ In [Node.js](https://nodejs.org/), [io.js](https://iojs.org/), [Narwhal](http://
 var iso88596 = require('iso-8859-6');
 ```
 
-In [Rhino](http://www.mozilla.org/rhino/):
+In [Rhino](https://www.mozilla.org/rhino/):
 
 ```js
 load('iso88596.js');
@@ -66,7 +66,7 @@ A string representing the semantic version number.
 
 ### `iso88596.labels`
 
-An array of strings, each representing a [label](http://encoding.spec.whatwg.org/#label) for this encoding.
+An array of strings, each representing a [label](https://encoding.spec.whatwg.org/#label) for this encoding.
 
 ### `iso88596.encode(input, options)`
 
@@ -76,7 +76,7 @@ This function takes a plain text string (the `input` parameter) and encodes it a
 var encodedData = iso88596.encode(text);
 ```
 
-The optional `options` object and its `mode` property can be used to set the [error mode](http://encoding.spec.whatwg.org/#error-mode). For encoding, the error mode can be `'fatal'` (the default) or `'html'`.
+The optional `options` object and its `mode` property can be used to set the [error mode](https://encoding.spec.whatwg.org/#error-mode). For encoding, the error mode can be `'fatal'` (the default) or `'html'`.
 
 ```js
 var encodedData = iso88596.encode(text, {
@@ -94,7 +94,7 @@ This function takes a byte string (the `input` parameter) and decodes it accordi
 var text = iso88596.decode(encodedData);
 ```
 
-The optional `options` object and its `mode` property can be used to set the [error mode](http://encoding.spec.whatwg.org/#error-mode). For decoding, the error mode can be `'replacement'` (the default) or `'fatal'`.
+The optional `options` object and its `mode` property can be used to set the [error mode](https://encoding.spec.whatwg.org/#error-mode). For decoding, the error mode can be `'replacement'` (the default) or `'fatal'`.
 
 ```js
 var text = iso88596.decode(encodedData, {
@@ -106,7 +106,7 @@ var text = iso88596.decode(encodedData, {
 
 ## Support
 
-_iso-8859-6_ is designed to work in at least Node.js v0.10.0, io.js v1.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, Rhino 1.7RC4, as well as old and modern versions of Chrome, Firefox, Safari, Opera, and Internet Explorer.
+_iso-8859-6_ is designed to work in at least Node.js v0.10.0, io.js v1.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, Rhino 1.7RC4, as well as old and modern versions of Chrome, Firefox, Safari, Opera, Edge, and Internet Explorer.
 
 ## Unit tests & code coverage
 
