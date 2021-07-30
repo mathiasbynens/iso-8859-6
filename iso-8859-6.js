@@ -1,4 +1,4 @@
-/*! https://mths.be/iso-8859-6 v1.0.1 by @mathias | MIT license */
+/*! https://mths.be/iso-8859-6 v1.0.2 by @mathias | MIT license */
 ;(function() {
 
 	var object = {};
@@ -115,7 +115,7 @@
 			'iso_8859-6',
 			'iso_8859-6:1987'
 		],
-		version: '1.0.1',
+		version: '1.0.2',
 	};
 
 	module.exports = iso88596;
